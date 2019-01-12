@@ -1,11 +1,11 @@
-# DAVMarks (Firefox)
-This is a Webextension for Mozilla Firefox to share your bookmarks across WebDAV Shares. You can simply install the AddOn via Mozillas [AMO](https://addons.mozilla.org/addon/davmarks/) site.
+# SyncMarks (Chrome)
+This is a Webextension for Google Chrome to share your bookmarks across WebDAV Shares or a PHP Backend. This is Extension is migrated from the Firefox Extension. It should be compatible to that Extension and the Backends. However, since i didn't use Chrome, i have never fully tested this. Currently the extension is not available in the Chrome Store, because I don't use Chrome and therefore have no use for it. But maybe this will change in the future. However, the extension can be used and tested via the developer mode (chrome://extensions) as an "unpacked extension".
 
-You can use this plugin to export and import your bookmarks to a WebDAV share of your choice. This works with known solutions like NextCloud, OwnCloud, SabreDAV or any other WebDAV providers. To logon, the most used authentication, http-basic, is supported.
+You can use this plugin to export,import, sync your bookmarks to a WebDAV share of your choice. This works with known solutions like NextCloud, OwnCloud, SabreDAV or any other WebDAV providers. To logon, the most used authentication, http-basic, is supported. Syncing via a PHP Backend is also possible.
 
 The bookmarks can be exported manually or optionally fully automatically. There are corresponding options in the addon settings.
 
-The Export/Import process should be compatible with Firefox Sync since version 1.0 of this AddOn. But as you might know, sometimes the devils is a squirrel. So please take always a bookmark backup.
+The Export/Import process is compatible with Firefox Sync.
 
 The exported bookmarks are also be compatible with the corresponding [Roundcube plugin](https://github.com/Offerel/roundcube_ffbookmarks), so that they can also be used in Roundcube.
 
