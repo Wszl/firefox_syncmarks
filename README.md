@@ -1,7 +1,7 @@
 # SyncMarks (Chrome)
 This is a Webextension for Google Chrome to share your bookmarks across WebDAV Shares or a PHP Backend. This is Extension is migrated from the Firefox Extension. It should be compatible to that Extension and the Backends. However, since i didn't use Chrome, i have never fully tested this. Currently the extension is not available in the Chrome Store, because I don't use Chrome and therefore have no use for it. But maybe this will change in the future. However, the extension can be used and tested via the developer mode (chrome://extensions) as an "unpacked extension".
 
-You can use this plugin to export,import, sync your bookmarks to a WebDAV share of your choice. This works with known solutions like NextCloud, OwnCloud, SabreDAV or any other WebDAV providers. To logon, the most used authentication, http-basic, is supported. Syncing via a PHP Backend is also possible.
+You can use this plugin to export,import, sync your bookmarks to a WebDAV share of your choice. This works with known solutions like NextCloud, OwnCloud, SabreDAV or any other WebDAV providers. To logon, the most used authentication, http-basic, is supported. Syncing via a [PHP Backend](https://github.com/Offerel/SyncMarks) is also possible.
 
 The bookmarks can be exported manually or optionally fully automatically. There are corresponding options in the addon settings.
 
